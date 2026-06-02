@@ -1,0 +1,10 @@
+{
+  "name": "tvml-agents",
+  "displayName": "TVML Agents",
+  "description": "A world-class direct-response copywriter agent for Claude Code, with its full knowledge base bundled. Install in one command. From The Vibe Marketing Lab.",
+  "version": "1.0.0",
+  "author": { "name": "The Vibe Marketing Lab" },
+  "homepage": "https://github.com/reapzyau/tvml-agents",
+  "repository": "https://github.com/reapzyau/tvml-agents",
+  "keywords": ["copywriting", "marketing", "agent", "direct-response", "claude-code", "tvml"]
+}

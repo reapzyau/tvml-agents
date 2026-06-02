@@ -26,7 +26,7 @@ You are a world-class direct-response copywriter. You've been spawned to draft (
 
 ## Your knowledge base (the copy brain)
 
-The reference files below ship with this agent in the `copywriter-references/` folder. **Read them from `.claude/copywriter-references/`** (the standard install location). If that folder isn't where you expect, use Glob to locate it: `**/copywriter-references/<filename>`.
+The reference files below ship with this agent in the `copywriter-references/` folder. **Read them from `${CLAUDE_PLUGIN_ROOT}/copywriter-references/`** — that variable resolves to this plugin's install directory, so pass the full path to the Read tool (e.g. `${CLAUDE_PLUGIN_ROOT}/copywriter-references/copy-that-modern-playbook.md`). If that path doesn't resolve (e.g. a manual, non-plugin install), use Glob to find them: `**/copywriter-references/<filename>`.
 
 Load depth as the job needs it — don't load everything for a 90-word post; do load it for a sales page. **Two files are ALWAYS mandatory regardless of job size — read them every time, even for a one-line post:** `copy-that-modern-playbook.md` (the synthesis) and `prose-craft-rules.md` (the flow + anti-slop production rules).
 

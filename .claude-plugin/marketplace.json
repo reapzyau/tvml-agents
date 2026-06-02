@@ -1,0 +1,14 @@
+{
+  "name": "tvml-agents",
+  "owner": { "name": "The Vibe Marketing Lab" },
+  "plugins": [
+    {
+      "name": "tvml-agents",
+      "displayName": "TVML Agents",
+      "source": "./",
+      "description": "A world-class direct-response copywriter agent with its full knowledge base bundled. Install in one command.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/reapzyau/tvml-agents"
+    }
+  ]
+}
